@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulir Umpan Balik</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+  <h1 class="judul">Formulir Keluhan</h1>
+  <p class="subjudul">Kritik, Saran, dan Masukan</p>
+
+  <!-- Navigasi -->
+  <nav class="navigasi">
+    <a href="http://127.0.0.1:5502/tugas%202/index/index.html">Beranda</a>
+    <a href="http://127.0.0.1:5502/tugas%202/profil/profil.html">Biodata</a>
+    <a href="http://127.0.0.1:5502/tugas%202/jadwal/Jadwal.html">Jadwal</a>
+    <a href="http://127.0.0.1:5502/tugas%202/galeri/galeri.html">Galeri</a>
+    <a href="http://127.0.0.1:5502/tugas%202/feesback/feedback.html" class="aktif">Feedback</a>
+  </nav>
+
+  <!-- Form -->
+  <div class="container">
+    <h2 class="judul-form"><span>▍</span> Formulir Kontak & Saran</h2>
+    <p>Berikan masukan terbaik Anda untuk pengembangan website profil ini. Semua input bersifat wajib kecuali nama.</p>
+
+    <form>
+      <label>Nama Anda (Opsional):</label>
+      <input type="text" placeholder="Tulis nama Anda">
+
+      <label>Email Anda:</label>
+      <input type="email" placeholder="nama@email.com" required>
+
+      <label>Rating Kepuasan Website (Skala 1-5):</label>
+      <input type="number" min="1" max="5" placeholder="Masukkan angka 1 hingga 5" required>
+
+      <label>Rekomendasi Buat Website Ini?</label>
+      <div class="radio-group">
+        <label><input type="radio" name="rekomendasi"> Ya, Sangat</label>
+        <label><input type="radio" name="rekomendasi"> Mungkin Saja</label>
+        <label><input type="radio" name="rekomendasi"> Tidak</label>
+      </div>
+
+      <label>Topik yang paling menarik:</label>
+      <div class="checkbox-group">
+        <label><input type="checkbox"> Beranda</label>
+        <label><input type="checkbox"> Biodata</label>
+        <label><input type="checkbox"> Jadwal</label>
+        <label><input type="checkbox"> Galeri</label>
+      </div>
+
+      <label>Saran Pengembangan di Bidang:</label>
+      <select>
+        <option>-- Pilih Bidang --</option>
+        <option>Main Bola</option>
+        <option>Turu</option>
+        <option>Desain</option>
+        <option>Ngangkat Benda-Benda Berat</option>
+      </select>
+
+      <label>Pesan/Saran Lengkap:</label>
+      <textarea rows="4" placeholder="Tulis pesan dan saran Anda secara detail di sini..."></textarea>
+
+      <div class="tombol">
+        <button type="reset" class="atur-ulang">Atur Ulang</button>
+        <button type="submit" class="kirim">Kirim Feedback</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

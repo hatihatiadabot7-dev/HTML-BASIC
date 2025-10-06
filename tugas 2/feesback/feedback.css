@@ -1,0 +1,141 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fb;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.judul {
+  text-align: center;
+  color: #1a56db;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  font-size: 28px;
+}
+
+.subjudul {
+  text-align: center;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+/* Navigasi */
+.navigasi {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.navigasi a {
+  display: inline-block;
+  background: #fff;
+  color: #1a56db;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  padding: 8px 20px;
+  margin: 0 5px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.navigasi a:hover {
+  background: #f2f2f2;
+}
+
+.navigasi .aktif {
+  background: #1a56db;
+  color: #fff;
+}
+
+/* Form Container */
+.container {
+  background: #fff;
+  max-width: 650px;
+  margin: 0 auto 40px auto;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Judul Form */
+.judul-form {
+  color: #1a56db;
+  border-left: 4px solid #f5c518;
+  padding-left: 8px;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.container p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Input, Select, Textarea */
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* Radio & Checkbox */
+.radio-group label,
+.checkbox-group label {
+  margin-right: 15px;
+  font-weight: normal;
+}
+
+/* Tombol */
+.tombol {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+button {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.atur-ulang {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.kirim {
+  background-color: #1a56db;
+  color: white;
+}
+
+.kirim:hover {
+  background-color: #174bb5;
+}
+button:hover {
+      background: #e60000;
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(255, 77, 77, 0.6);
+    }
