@@ -1,0 +1,102 @@
+body {
+    background: whitesmoke;
+    
+}
+.bro {
+    background: white;
+    box-shadow: 0 1px 5px rgb(92, 91, 91);
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px;
+}
+.bro h2 {
+    margin: 10px;
+}
+.bre {
+  display: flex;
+  background-color: #c3ebfd;
+  border: 2px solid lightskyblue;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 10px;
+}
+.bri {
+    background: white;
+    box-shadow: 0 0 2px rgb(92, 91, 91);
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    width: 20%;
+    border-radius: 15px;
+    position: relative;
+    scale: 1;
+    transition: scale 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.bri:hover {
+    scale: 1.1;
+    transition: scale 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.bri img {
+    width: 120px;
+    border-radius: 100px;
+    top: 10px;
+}
+span {
+    color: rgb(134, 133, 133);
+}
+.bru {
+    background: white;
+    text-align: center;
+    height: 170px;
+    width: 170px;
+    border: 2px solid #eee;
+    border-radius: 6px;
+    margin: 5px;
+    padding: 5px;
+    scale: 1;
+    transition: scale 1s cubic-bezier(0.23, 1, 0.320, 1);
+}
+.bru:hover {
+    scale: 1.1;
+    transition: scale 1s cubic-bezier(0.23, 1, 0.320, 1);
+}
+.area {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+.blue {
+    border: 2px solid blue;
+}
+h3 {
+    color: blue;
+    font-size: medium;
+}
+.size {
+    font-size: 20px;
+}
+hr {
+    margin-right: 50px;
+    margin-left: 50px;
+    box-shadow: 0 0 3px rgb(41, 40, 40);
+}
+.beli {
+    background-color: blue;
+    border-radius: 4px;
+    padding: 5px;
+    color: white;
+    margin: 5px;
+}
+code {
+    position: absolute;
+    top: 10px;
+    background-color: rgb(38, 180, 38);
+    color: white;
+    border-radius: 5px;
+    margin-left: 60px;
+    
+}
+
+
