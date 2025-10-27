@@ -99,4 +99,48 @@ code {
     
 }
 
-
+/* ukuran 1024px => desktop++ */
+@media screen and (min-width: 1024px) {
+  /* masukkan tag / target selector */
+  .bro {
+    background: rgb(243, 139, 139);
+    box-shadow: 0 1px 5px rgb(92, 91, 91);
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px;
+}
+.bro h2 {
+    margin: 10px;
+    color: white;
+}
+}
+/* ukuran 768-1023px => tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* masukkan tag / target selector */
+.bro {
+    background: rgb(15, 126, 205);
+    box-shadow: 0 1px 5px rgb(92, 91, 91);
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px;
+}
+.bro h2 {
+    margin: 10px;
+    color: black;
+}
+}
+/* ukuran max 767px => smartphone */
+@media screen and (max-width: 767px) {
+  /* masukkan tag / target selector */
+.bro {
+    background: gray;
+    box-shadow: 0 1px 5px rgb(92, 91, 91);
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px;
+}
+.bro h2 {
+    margin: 10px;
+    color: white;
+}
+}
