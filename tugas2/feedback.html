@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSI BS PURWOREJO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bagatas">
+        <img width="100" src="/Tugas/Tugas 3/images/logo.webp" alt="">
+        <h2>HSI Boarding School Purworejo</h2>
+        <h3>FEEDBACK</h3>
+    </div>
+    <hr>
+    <br>
+    <div class="selection">
+        <ul>
+            <a href="index.html"><b>Beranda</b></a>
+            <a href="biodata.html"><b>Biodata</b></a>
+            <a href="jadwal.html"><b>Jadwal</b></a>
+            <a href="galeri.html"><b>Galeri</b></a>
+            <a class="warna" href="feedback.html"><b>Feedback</b></a>
+        </ul>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <form>
+        <div>
+            <main class="container">
+                <h3 class="biodata"><span class="garis"></span>Biodata Singkat</h3>
+                <br>
+                <p>Berikan masukan terbaik anda untuk pengembangan website ini. Semua input wajib di isi.</p>
+                <div class="form-group">
+                    <label for="nama">Nama Anda (Opsional):</label>
+                    <input type="text" id="nama" name="nama" placeholder="Tulis nama Anda">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Anda:</label>
+                    <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="rating">Rating Kepuasan Website (Skala 1–10):</label>
+                    <input type="number" id="rating" name="rating" min="1" max="10" placeholder="Masukkan angka 1 hingga 10" required>
+                </div>
+                <div class="form-group">
+                    <label>Rekomendasi Website Ini?</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="rekomendasi" value="ya"> Ya, Sangat</label>
+                        <label><input type="radio" name="rekomendasi" value="mungkin"> Mungkin aja</label>
+                        <label><input type="radio" name="rekomendasi" value="tidak"> Tidak</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Topik yang paling menarik:</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="topik" value="biodata"> Biodata</label>
+                        <label><input type="checkbox" name="topik" value="jadwal"> Jadwal</label>
+                        <label><input type="checkbox" name="topik" value="galeri"> Galeri</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="bidang">Saran Pengembangan di Bidang:</label>
+                    <select id="bidang" name="bidang">
+                        <option value="Pilih Bidang">-- Pilih Bidang --</option>
+                        <option value="desain">Desain</option>
+                        <option value="fitur">Ngekonten</option>
+                        <option value="konten">Olahraga</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="pesan">Pesan/Saran Lengkap:</label>
+                    <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis pesan dan saran Anda di sini..."></textarea>
+                </div>
+                <div class="button-group">
+                    <button type="reset" class="reset">Atur Ulang</button>
+                    <button type="submit" class="submit">Kirim Feedback</button>
+                </div>
+            </main>
+        </div>
+     </form>
+</body>
