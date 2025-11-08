@@ -7,6 +7,11 @@
     margin: 5px;
     background: #a0a9b7;
 }
+.selection a:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+}
 }
 
 /* ukuran 768-1023px => tablet */
@@ -16,6 +21,11 @@
     padding: 5px;
     margin: 5px;
     background: #516381;
+}
+.selection a:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
 }
 }
 
@@ -29,7 +39,12 @@
   body {
     padding: 5px;
     margin: 5px;
-    background: #78a2e6;
+    background: #6a7d9d;
+}
+.selection a:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
 }
 }
 
@@ -51,18 +66,35 @@
   width: 90%;
   height: 90%;
   top: 5%;
+  scale: 1;
+  transition: scale 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+.video iframe:hover {
+    scale: 1.1;
+    transition: scale 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
 
 
 /* inndexx */
 .bagatas {
     text-align: center;
 }
+.bagatas img {
+   scale: 1;
+  transition: scale 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.bagatas img:hover{
+  scale: 1.1;
+  transition: scale 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
 
 /* tombol-navigasi */
 .selection {
     text-align: center;
     flex-direction: column;
+    scale: 1;
+    transition: scale 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .selection a {
@@ -70,6 +102,12 @@
     color: black;
     padding: 10px;
     width: auto;
+}
+
+.selection:hover {
+    scale: 1.1;
+    transition: scale 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+
 }
 
 /* AKTIF */
@@ -116,6 +154,12 @@ h2 {
 
 .avatar img {
     padding-left: 25px;
+    scale: 1;
+    transition: scale 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.avatar img:hover{
+  scale: 1.1;
+  transition: scale 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .titleavatar {
@@ -160,6 +204,12 @@ h2 {
 
 .fotodiri {
     border-radius: 250px;
+    scale: 1;
+    transition: scale 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.fotodiri:hover {
+   scale: 1.1;
+  transition: scale 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .Hobi {
@@ -272,6 +322,10 @@ tbody tr:hover {
     border-radius: 14px;
     padding: 25px;
 }
+.card:hover {
+    scale: 1.1;
+    transition: scale 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
 
 .galery h2 {
     color: black;
@@ -283,12 +337,14 @@ tbody tr:hover {
     font-size: 16px;
 }
 
-.galery .card {
+.card {
     display: inline-block;
     width: 200px;
     margin: 14px;
     overflow: hidden;
     border-radius: 8px;
+    scale: 1;
+    transition: scale 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .galery .card img {
