@@ -1,5 +1,5 @@
 
-/* ukuran 1024px => desktop++ */
+/* ukuran 1024px => Desktop++ */
 @media screen and (min-width: 1024px) {
   /* masukkan tag / target selector */
   body {
@@ -14,7 +14,7 @@
 }
 }
 
-/* ukuran 768-1023px => tablet */
+/* ukuran 768-1023px => Tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   /* masukkan tag / target selector */
   body {
@@ -29,7 +29,7 @@
 }
 }
 
-/* ukuran max 767px => smartphone */
+/* ukuran max 767px => Smartphone */
 @media screen and (max-width: 767px) {
   /* masukkan tag / target selector */
   .selection ul {
